@@ -34,3 +34,4 @@ def exibir(arquivo):
         print("Data.........: ", dado[0])
         print("Descrição....: ", dado[1])
         print("Departamento.: ", dado[2])
+
