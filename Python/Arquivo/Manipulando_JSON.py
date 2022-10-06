@@ -1,4 +1,9 @@
 from funcoes_JSON import*
+import os 
+
+if os.path.exists("inventario.json"):
+    with open("inventario.json", "r") as arq_json:inventario = json.load(arq_json)
+else:inventario={}
 
 inventario = ler_arquivo("inventario.json")
 opcao=chamarMenu()

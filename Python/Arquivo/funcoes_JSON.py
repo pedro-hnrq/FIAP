@@ -1,5 +1,6 @@
 import json
 import os
+
 def chamarMenu():
     escolha = int(input("Digite: "
     "\n<1> para registrar ativo"
